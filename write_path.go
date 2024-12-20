@@ -44,5 +44,5 @@ func writePath(b *strings.Builder, err error) string {
 		fmt.Fprintf(b, ": %v", err)
 	}
 
-	return b.String() // end of the chain
+	return b.String() // end of the path
 }
