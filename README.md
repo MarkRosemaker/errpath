@@ -3,7 +3,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/MarkRosemaker/errpath)](https://goreportcard.com/report/github.com/MarkRosemaker/errpath)
 ![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-![errpath logo: golang gopher determinedly walking through a blue and red maze](./logo.jpg)
+![errpath logo: golang gopher determinedly walking through a blue and red maze](./logo.jpg | width=100)
 
 Package errpath provides utilities for creating and managing detailed error paths.
 It allows users to construct error messages that include the full path to the error,
