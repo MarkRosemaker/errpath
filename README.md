@@ -11,6 +11,7 @@ Package errpath provides utilities for creating and managing detailed error path
 It allows users to construct error messages that include the full path to the error,
 which can be particularly useful when traversing complex data structures such as JSON
 or YAML files.
+
 Example for an error in an OpenAPI: `components.schemas["Pet"].allOf[0]: invalid schema`
 
 The package defines several error types that can be used to represent different kinds
