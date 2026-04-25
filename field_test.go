@@ -11,7 +11,7 @@ func TestErrField(t *testing.T) {
 		Field: "foo",
 		Err: &errpath.ErrField{
 			Field: "bar",
-			Err:   testErr,
+			Err:   errTest,
 		},
 	}
 	if want := `foo.bar: a test error`; err.Error() != want {

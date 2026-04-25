@@ -7,7 +7,7 @@ import (
 	"github.com/MarkRosemaker/errpath"
 )
 
-var testErr = errors.New("a test error")
+var errTest = errors.New("a test error")
 
 func TestPath(t *testing.T) {
 	err := &errpath.ErrField{

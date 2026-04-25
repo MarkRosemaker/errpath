@@ -11,7 +11,7 @@ func TestErrIndex(t *testing.T) {
 		Index: 3,
 		Err: &errpath.ErrIndex{
 			Index: 5,
-			Err:   testErr,
+			Err:   errTest,
 		},
 	}
 	if want := `[3][5]: a test error`; err.Error() != want {

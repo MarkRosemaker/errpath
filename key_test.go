@@ -11,7 +11,7 @@ func TestErrKey(t *testing.T) {
 		Key: "foo",
 		Err: &errpath.ErrKey{
 			Key: "bar",
-			Err: testErr,
+			Err: errTest,
 		},
 	}
 	if want := `["foo"]["bar"]: a test error`; err.Error() != want {
