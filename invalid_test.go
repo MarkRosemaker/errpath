@@ -103,6 +103,7 @@ func TestErrInvalid_struct(t *testing.T) {
 		Foo string
 		Bar int
 	}
+
 	errBool := &errpath.ErrInvalid[someStruct]{}
 	if want := `a value is invalid`; errBool.Error() != want {
 		t.Fatalf("want: %s, got: %v", want, errBool)
@@ -129,6 +130,7 @@ func TestErrInvalid_pointer_to_struct(t *testing.T) {
 		Foo string
 		Bar int
 	}
+
 	errBool := &errpath.ErrInvalid[*someStruct]{}
 	if want := `a value is invalid`; errBool.Error() != want {
 		t.Fatalf("want: %s, got: %v", want, errBool)
